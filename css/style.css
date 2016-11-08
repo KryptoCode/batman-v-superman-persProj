@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url('http://www.rededits.com/projects/fonts/Gotham-Bold_21010.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background: -webkit-linear-gradient(#000, #22313F, #000);
+  /* For Safari 5.1 to 6.0 */
+  
+  background: -o-linear-gradient(#000, #22313F, #000);
+  /* For Opera 11.1 to 12.0 */
+  
+  background: -moz-linear-gradient(#000, #22313F, #000);
+  /* For Firefox 3.6 to 15 */
+  
+  background: linear-gradient(#000, #22313F, #000);
+  /* Standard syntax (must be last) */
+}
+
+.title {
+  font-family: gothamBold;
+  color: #fff;
+  padding-top: 50px;
+
+}
+
+#container {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 75vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+.headerImg {
+  background-image: url('http://orig11.deviantart.net/178f/f/2014/143/7/8/batman_v_superman__dawn_of_justice_logo_by_sachso74-d7jg9ix.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  height: 196px;
+}
+
+#hero-one {
+  background-image: url('http://www.rededits.com/projects/images/superman_H.png');
+
+ 
+
+}
+
+#hero-two {
+  background-image: url('http://www.rededits.com/projects/images/batman_H.png');
+
+
+
+
+}
+
+#hero-one,
+#hero-two {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid black 5px;
+  height: 376px;
+  width: 315px;
+  margin: 20px 40px;
+}
+
+#buttonPanel {
+  margin: 0 auto;
+  clear: both;
+}
+
+
+#fightButton {
+  background: url(http://www.rededits.com/projects/images/fightBtn.png);
+  display: block;
+  border: none;
+  width: 85px;
+  height: 50px;
+  margin: auto;
+  color: #fff;
+  font-family: gothamBold;
+  font-size: 16px;
+  outline: 0;
+  
+}
+
+#fightButton:hover{
+  background: url(http://www.rededits.com/projects/images/fightBtnHvr.png);
+  border: none;
+
+}
+
+
+
+li.hidden {
+  display: none;
+}
+
+#symbolImg {
+  width: 75px;
+  height: 40px;
+  margin: 5px 0;
+}
